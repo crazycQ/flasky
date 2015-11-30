@@ -1,0 +1,12 @@
+Dear {{ user.username }},
+
+Welcome to fortuneget
+
+
+
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+Sincerely,
+
+The CQ
+
